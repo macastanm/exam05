@@ -46,7 +46,7 @@ void    Warlock::introduce(void) const {
 void    Warlock::learnSpell(ASpell *spellToLearn) {
     if (spellToLearn)
     {
-        _mySpells[spellToLearn->getName()] = spellToLearn;
+		_mySpells.insert(std::pair<std::string, ASpell *>(spellToLearn->getName(), spellToLearn->clone()));
     }
 }
 
