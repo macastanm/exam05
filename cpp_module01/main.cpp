@@ -5,6 +5,8 @@
 #include "Dummy.hpp"
 #include <iostream>
 
+//This main if from my colleague Michel (mamaral-), without this I couldn't find my error :)
+
 int main() {
     // Test Warlock creation
     Warlock richard("Richard", "the Titled");

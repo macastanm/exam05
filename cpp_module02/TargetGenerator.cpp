@@ -21,7 +21,7 @@ TargetGenerator::~TargetGenerator() {
 void    TargetGenerator::learnTargetType(ATarget *targetToLear) {
     if (targetToLear)
     {
-        _myTargets[targetToLear->getType()] = targetToLear;
+		_myTargets.insert(std::pair<std::string, ATarget *>(targetToLear->getType(), targetToLear->clone()));
     }
 }
 

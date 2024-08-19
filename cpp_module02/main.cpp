@@ -6,6 +6,8 @@
 #include "Polymorph.hpp"
 #include "TargetGenerator.hpp"
 
+//This main if from my colleague Michel (mamaral-), without this I couldn't find my error :)
+
 int main()
 {
     // Warlock and target generator creation

@@ -23,9 +23,6 @@ Warlock::Warlock(std::string const &name, std::string const &title) {
 
 Warlock::~Warlock() {
     std::cout << _name << ": My job here is done!\n";
-    for (std::map<std::string, ASpell *>::iterator it = _mySpells.begin(); it != _mySpells.end(); it++) {
-        delete it->second;
-    }
     _mySpells.clear();
 }
 

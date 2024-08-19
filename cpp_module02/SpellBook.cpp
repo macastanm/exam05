@@ -15,9 +15,6 @@ SpellBook &SpellBook::operator=(SpellBook const &src) {
 }
 
 SpellBook::~SpellBook() {
-    for (std::map<std::string, ASpell *>::iterator it = _mySpells.begin(); it != _mySpells.end(); it++) {
-        delete it->second;
-    }
     _mySpells.clear();
 }
 
