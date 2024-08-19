@@ -5,7 +5,7 @@
 #include "Dummy.hpp"
 #include <iostream>
 
-//This main if from my colleague Michel (mamaral-), without this I couldn't find my error :)
+//This main is from my colleague Michel (mamaral-), without this I couldn't find my error :)
 
 int main() {
     // Test Warlock creation
